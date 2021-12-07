@@ -99,6 +99,7 @@ namespace Lab10Starter
             Tile20.Content = "";
             Tile21.Content = "";
             Tile22.Content = "";
+            ticTacToe.ResetGame();
         }
 
     }
