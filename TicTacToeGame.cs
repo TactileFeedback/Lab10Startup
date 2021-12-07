@@ -89,6 +89,21 @@ namespace Lab10Starter
                 ToggleCurrentPlayer();
                 return false;
             }
+            switch (victor)
+            {
+                case Player.X:
+                    scores[1] += 1;
+                    break;
+                case Player.O:
+                    scores[0] += 1;
+                    break;
+                case Player.Nobody:
+                    break;
+                case Player.Both:
+                    break;
+                default:
+                    break;
+            }
             return true;
         }
 
@@ -189,6 +204,7 @@ namespace Lab10Starter
                     grid[r, c] = Player.Nobody;
                 }
             }
+
             CurrentPlayer = Player.X; // X always goes first
         }
 

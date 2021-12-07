@@ -17,7 +17,7 @@
         <Button x:Name="Tile21" Content="" HorizontalAlignment="Left" Margin="329,236,0,0" VerticalAlignment="Top" Height="60" Width="65" Click="HandleButtonClick" FontSize="24"/>
         <Button x:Name="Tile22" Content="" HorizontalAlignment="Left" Margin="394,236,0,0" VerticalAlignment="Top" Height="60" Width="65" Click="HandleButtonClick" FontSize="24"/>
         <Label Name="XScoreLBL" Content="X's Score: 0" HorizontalAlignment="Left" Height="41" Margin="40,58,0,0" VerticalAlignment="Top" Width="159" FontSize="24"/>
-        <Label Name="OScoreLBL" Content="Y's Score: 0" HorizontalAlignment="Left" Height="41" Margin="40,115,0,0" VerticalAlignment="Top" Width="159" FontSize="24"/>
+        <Label Name="OScoreLBL" Content="O's Score: 0" HorizontalAlignment="Left" Height="41" Margin="40,115,0,0" VerticalAlignment="Top" Width="159" FontSize="24"/>
 
     </Grid>
 </Window>
